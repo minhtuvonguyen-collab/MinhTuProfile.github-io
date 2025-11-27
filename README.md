@@ -1,1 +1,137 @@
-# MinhTuProfile.github-io
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Giới thiệu - Minh Tú</title>
+  <style>
+    :root {
+      --bg: #f3f4f6;
+      --card: #ffffff;
+      --primary: #2563eb;
+      --secondary: #1e40af;
+      --text: #111827;
+      --muted: #6b7280;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial;
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: #fff;
+      padding: 48px 20px;
+      text-align: center;
+    }
+    header h1 { font-size: 36px; margin: 0 0 10px; }
+    header p { font-size: 16px; margin: 0; opacity: 0.9; }
+
+    .container {
+      max-width: 960px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 16px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+      overflow: hidden;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .left {
+      flex: 1 1 280px;
+      background: #eef2ff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 30px;
+    }
+
+    .avatar {
+      width: 260px;
+      height: 260px;
+      border-radius: 14px;
+      overflow: hidden;
+      border: 5px solid rgba(255,255,255,0.6);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    }
+    .avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .right {
+      flex: 2 1 320px;
+      padding: 30px 40px;
+    }
+    .right h2 {
+      margin: 0 0 8px;
+      font-size: 26px;
+    }
+    .right .meta {
+      color: var(--muted);
+      margin-bottom: 16px;
+    }
+
+    .about {
+      background: #f9fafb;
+      padding: 16px;
+      border-radius: 12px;
+      border: 1px solid #e5e7eb;
+      min-height: 120px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media(max-width: 720px){
+      .right { padding: 20px; }
+      header h1 { font-size: 28px; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Giới thiệu bản thân</h1>
+    <p>Trang cá nhân của Võ Nguyễn Minh Tú</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <div class="left">
+        <div class="avatar">
+          <img src="https://github.com/daisubinta/Nhom4tin12anh.github.io/blob/main/z7266046669069_8ee11924eac3c8593f8d8db1b2f4a8ef.jpg" alt="Ảnh cá nhân">
+        </div>
+      </div>
+
+      <div class="right">
+        <h2>Minh Tú</h2>
+        <div class="meta">Học sinh lớp 12 Anh — THPT Chuyên Bến Tre</div>
+
+        <div class="about">
+          <p>
+            Xin chào! Mình là <strong>Minh Tú</strong>, hiện là học sinh lớp 12 Anh tại trường THPT Chuyên Bến Tre.
+            Mình yêu thích tiếng Anh và sẵn sàng học hỏi những điều mới. Bên cạnh việc học, mình quan tâm đến các hoạt động cộng đồng, phát triển kỹ năng mềm để có thể mở rộng góc nhìn. Mình tin rằng mỗi cơ hội, dù nhỏ, đều có thể trở thành bước đệm để hoàn thiện chính mình.
+            Đây sẽ là nơi mình chia sẻ đôi nét về bản thân để mọi người hiểu hơn về hành trình của mình.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>© 2025 — Trang cá nhân của Minh Tú</footer>
+</body>
+</html>
