@@ -113,7 +113,7 @@
     <div class="card">
       <div class="left">
         <div class="avatar">
-          <img src="https://github.com/daisubinta/Nhom4tin12anh.github.io/blob/main/z7266046669069_8ee11924eac3c8593f8d8db1b2f4a8ef.jpg" alt="Ảnh cá nhân">
+          <img src="https://github.com/minhtuvonguyen-collab/MinhTuProfile.github-io/blob/main/z7266046669069_8ee11924eac3c8593f8d8db1b2f4a8ef.jpg" alt="Ảnh cá nhân">
         </div>
       </div>
 
@@ -124,8 +124,7 @@
         <div class="about">
           <p>
             Xin chào! Mình là <strong>Minh Tú</strong>, hiện là học sinh lớp 12 Anh tại trường THPT Chuyên Bến Tre.
-            Mình yêu thích tiếng Anh và sẵn sàng học hỏi những điều mới. Bên cạnh việc học, mình quan tâm đến các hoạt động cộng đồng, phát triển kỹ năng mềm để có thể mở rộng góc nhìn. Mình tin rằng mỗi cơ hội, dù nhỏ, đều có thể trở thành bước đệm để hoàn thiện chính mình.
-            Đây sẽ là nơi mình chia sẻ đôi nét về bản thân để mọi người hiểu hơn về hành trình của mình.
+            Đây sẽ là nơi mình chia sẻ đôi nét về bản thân để mọi người hiểu hơn về mình.
           </p>
         </div>
       </div>
